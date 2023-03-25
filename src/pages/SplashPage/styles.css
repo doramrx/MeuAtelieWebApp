@@ -1,0 +1,36 @@
+div#splash-page{
+  background-color: #FC7482;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+div#splash-page div#logo img{
+  width: 250px;
+}
+
+div#splash-page div#buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+div#splash-page div#buttons a{
+  background-color: white;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #D15561;
+  text-decoration: none;
+
+  width: 250px;
+  padding: 13px 30px;
+
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 1px #0000002a;
+}

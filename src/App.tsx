@@ -1,3 +1,7 @@
+import './styles/global.css';
+
+import { SplashPage } from "./pages/SplashPage";
+
 export function App() {
-    return <h1>MeuAtelieWebApp</h1>;
+    return <SplashPage/>;
 }
