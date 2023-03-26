@@ -20,7 +20,7 @@ div#splash-page div#buttons{
 }
 
 div#splash-page div#buttons a{
-  background-color: white;
+  background-color: #FFFFFF;
   text-align: center;
   font-size: 22px;
   font-weight: 600;
@@ -33,4 +33,9 @@ div#splash-page div#buttons a{
   border: none;
   border-radius: 10px;
   box-shadow: 3px 3px 0 1px #0000002a;
+}
+
+div#splash-page div#buttons a:hover{
+  background-color: #D15561;
+  color: #FFFFFF;
 }
