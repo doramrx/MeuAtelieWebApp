@@ -1,7 +1,7 @@
 import './styles/global.css';
 
-import { SplashPage } from "./pages/SplashPage";
+import { Routes } from './routes';
 
 export function App() {
-    return <SplashPage/>;
+    return <Routes />
 }

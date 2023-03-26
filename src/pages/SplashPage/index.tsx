@@ -1,15 +1,30 @@
-import './styles.css';
+import { Link } from "react-router-dom";
 
-export function SplashPage(){
-  return (
-    <div id="splash-page">
-      <div id="logo">
-        <img src="src/assets/images/logo.png" alt="logo"/>
-      </div>
-      <div id="buttons">
-        <a href="#" id="sign-up-button">Cadastrar</a>
-        <a href="#" id="sign-in-button">Entrar</a>
-      </div>
-    </div>
-  );
+import "./styles.css";
+
+export function SplashPage() {
+    return (
+        <div id="splash-page">
+            <div id="logo">
+                <img
+                    src="src/assets/images/logo.png"
+                    alt="logo"
+                />
+            </div>
+            <div id="buttons">
+                <Link
+                    to="signUp"
+                    id="sign-up-button"
+                >
+                    Cadastrar
+                </Link>
+                <Link
+                    to="signIn"
+                    id="sign-in-button"
+                >
+                    Entrar
+                </Link>
+            </div>
+        </div>
+    );
 }
